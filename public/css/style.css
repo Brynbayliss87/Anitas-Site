@@ -1,0 +1,29 @@
+.logo {
+  width: 10%;
+  float: right;
+  margin: 0.5% 0% 1% 0%;
+  min-height: 100px;
+  min-width: 100px;
+} 
+
+li {
+  margin: 1%;
+}
+
+.navbar {
+  background-color: #E0E0F8;
+  max-height: 15%;
+}
+
+.navbar .nav {
+  margin-top: 2%;
+}
+
+ul {
+  width: 50%;
+}
+
+.sub-title {
+  margin-top: 2%;
+  color: #828488;
+}

@@ -3,7 +3,7 @@
   float: right;
   margin: 0.5% 0% 1% 0%;
   min-height: 100px;
-  min-width: 100px;
+  min-width: 150px;
 } 
 
 li {
@@ -20,10 +20,76 @@ li {
 }
 
 ul {
-  width: 50%;
+  width: 70%;
 }
 
 .sub-title {
   margin-top: 2%;
   color: #828488;
+}
+
+.main {
+  margin: 5% 5% 0 5%;
+} 
+
+.main-list {
+  margin-top: 2%;
+  margin-right: 25%;
+  margin-left: 35%;
+  padding-bottom: 2%;
+}
+
+.sub-heading {
+  margin: 1% 2% 1% 2%;
+}
+
+.first-test {
+  float: left;
+  width: 45%;
+  margin: 2%;
+}
+
+.second-test {
+  float: left;
+  width: 45%;
+  margin: 2%
+}
+
+.ram {
+  max-height: 100px;
+  max-width: 300px;
+}
+
+.hour {
+  float: right;
+  max-height: 300px;
+  position: relative;
+  z-index: 2;
+}
+
+.contact {
+  position: absolute;
+  z-index: 1;
+}
+
+footer{
+  background-color: #E0E0F8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  text-align: center;
+  color: #424558;
+}
+
+footer p {
+  padding: 10.5px;
+  margin: 0px;
+  line-height: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }

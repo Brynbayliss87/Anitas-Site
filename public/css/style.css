@@ -93,3 +93,18 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+body {
+  background-color: #f7f4f4;
+}
+
+h1 {
+  color: #293c88;
+}
+p {
+  color: #83858a;
+}
+
+li {
+  color: #83858a;
+}

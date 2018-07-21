@@ -2,31 +2,31 @@
 <html>
   <head>
     <title><%= @title %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href=/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-	<ul class="nav navbar-nav">
-	  <li class="home"><a class="home-link" href="/">Home</a></li>
-	  <li><a href="/ethos">Ethos</a></li>
-	  <li><a href="/services">Services</a></li>
-	  <li><a href="/testimonials">Testimonials</a></li>
-	  <li><a href="/rates">Rates</a></li>
-	  <li><a href="/contact">Contact Me</a></li>
-	</ul>
-        <img src="img/SmallLogo.png" class="img-responsive logo"/>
-      </div>
-    </nav>
-    <div class="yield-body">
-      <%= yield %>
-    </div>  
-    </br>
-    <footer>
-      <p>© 2018 Anita Lowe, Virtual Assistant<a style="color:#0a93a6; text-decoration:none;" href="https://uk.linkedin.com/in/anita-lowe-a37031137"> LinkedIn</a></p>
+    <div id="menu">
+<div class="logo">
+       <img src="img/SmallLogo.png" class="img img-responsive"/>
+     </div>
+
+
+          <a href="/" class="menuitem">Home</a>
+     <a href="/ethos" class="menuitem">Ethos</a>
+     <a href="/services" class="menuitem">Services</a>
+     <a href="/testimonials" class="menuitem">Testimonials</a>
+     <a href="/rates" class="menuitem">Rates</a>
+     <a href="/contact" class="menuitem">Contact</a>
+   </div>
+  <div class="yield-body">
+  <%= yield %>
+</div>  
+</br>
+<footer>
+  <p class="footer">© 2018 Anita Lowe, Virtual Assistant<a style="color:#0a93a6; text-decoration:none;" href="https://uk.linkedin.com/in/anita-lowe-a37031137"> LinkedIn</a></p>
     </footer>
     <script src="/js/bootstrap.min.js"></script>
   </body>
